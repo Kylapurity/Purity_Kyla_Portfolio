@@ -1,1 +1,1 @@
-# Purity Kihiu folio to to know more about me and want us to colloborate to bring solutions to Africa and the whole world.
+## Purity's Kihiu folio to know more about her and want us to colloborate to bring solutions to Africa and the whole world. 
