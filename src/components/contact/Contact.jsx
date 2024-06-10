@@ -37,8 +37,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>wekemoyo@gmail.com</h5>
-            <a href="mailto:wekemoyo@gmail.com">Send a message</a>
+            <h5>kihiupurity29@gmail.com</h5>
+            <a href="mailto:kihiupurity29@gmail.com">Send a message</a>
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
@@ -70,7 +70,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply Soon:)</span>}
+          {message && <span>Thanks,for reaching out I will reachout for us to bring solutions Soon:)</span>}
         </form>
       </div>
     </section>
