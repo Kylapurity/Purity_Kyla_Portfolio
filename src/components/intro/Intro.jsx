@@ -27,9 +27,20 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-<p>Hello, I'm Moyo, a highly skilled Software Engineer with a passion for designing and building exceptional web applications. With expertise in various frontend technologies and frameworks such as HTML, CSS, JavaScript, React, Vue, and Angular, I specialize in delivering solid, scalable, and intuitive frontend solutions that enhance user experiences.
+<p>Hello, I'm Purity Kihiu,  I'm a passionate and open-minded web development professional with a knack for turning ideas into viable, user-friendly app solutions. I commit to utilizing the best technology and a generous dose of creativity to deliver functional applications that meet clients' unique needs.
 <br></br><br></br>
-Currently, I am seeking a Software Engineer New Grad role to further hone my skills and gain more hands-on experience in the industry. My ability to transform complex designs into seamless and functional web applications has earned me a reputation as a go-to person for software solutions. Whether you're looking for a quick one-off project or something more long-term, I am confident that my skills and experience make me the ideal candidate to help bring your web applications to life. Let's connect and explore how we can work together to create exceptional digital experiences for your users. </p>
+-Build high-quality websites using HTML, CSS and Javascript.
+-Proficient in HTML5 and CSS3 for creating the front end of website applications.
+-Designing and implementing scalable codes.
+-Work with different APIs and their integration into projects.
+- Zoho Applications to bring the business sector into vision.
+-Collaborate on projects in GitHub 
+-Excellent collaborator among teams.
+-Strong communication skills.
+-Work harmoniously with teams and under minimal supervision.
+-Problem-solver who enjoys solving challenging issues through extensive research and analysis.
+-Adaptable and easily blend in with people from different walks of life.
+ </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
 
         </div>
