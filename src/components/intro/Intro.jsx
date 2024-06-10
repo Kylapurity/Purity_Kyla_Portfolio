@@ -33,8 +33,8 @@ const Intro = () => {
 -Proficient in HTML5 and CSS3 for creating the front end of website applications.
 -Designing and implementing scalable codes.
 -Work with different APIs and their integration into projects.
-- Zoho Applications to bring the business sector into vision.
--Collaborate on projects in GitHub 
+- Zoho Applications to bring the business sector into vision. 
+-Collaborate on projects in GitHub. 
 -Excellent collaborator among teams.
 -Strong communication skills.
 -Work harmoniously with teams and under minimal supervision.
