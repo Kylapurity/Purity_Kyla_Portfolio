@@ -11,10 +11,11 @@ footer a {
 }
 
 .footer__logo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
     display: inline-block;
+    text-transform: uppercase;
 }
 .footer__logo:hover{
         color: #FF6489;
