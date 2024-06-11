@@ -20,7 +20,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>NodeJS</h4>
+              <h4>Zoho Books</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -29,21 +29,21 @@ const Experience = () => {
 
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Redux</h4>
+              <h4>Zoho Creator</h4>
             </article>
 
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Figma</h4>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Material-UI</h4>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Prime React</h4>
-            </article>
+            </article> */}
           </div>
         </div>
         <div className="experience__backend">
@@ -62,22 +62,22 @@ const Experience = () => {
               <h4>SQL</h4>
             </article>
 
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>AWS</h4>
-            </article>
+            </article> */}
             
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Postman</h4>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>MongoDB</h4>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Jest</h4>
+              <h4>Fire Base</h4>
             </article>
           </div>
         </div>
