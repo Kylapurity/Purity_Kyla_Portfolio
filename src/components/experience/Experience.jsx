@@ -71,10 +71,10 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Postman</h4>
             </article>
-            {/* <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>MongoDB</h4>
-            </article> */}
+              <h4>Vercel </h4>
+            </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Fire Base</h4>
