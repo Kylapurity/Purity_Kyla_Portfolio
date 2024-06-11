@@ -11,8 +11,8 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        "service_4okg2ke",
-        "template_glxyj2q",
+        "service_cpqbb0d",
+        "template_e04i8y8",
         formRef.current,
         "EJIs74KvepLVa7lNy"      )
       .then(
@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h5>
-        Please provide a valid email 👋
+        Please provide a valid email 😃
       </h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
@@ -70,7 +70,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks,for reaching out I will reachout for us to bring solutions Soon:)</span>}
+          {message && <span>Thanks,for reaching out I will reachout for us to bring solutions Soon😎</span>}
         </form>
       </div>
     </section>
