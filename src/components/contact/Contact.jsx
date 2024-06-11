@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h5>
-        Please provide a valid email :)
+        Please provide a valid email 👋
       </h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
