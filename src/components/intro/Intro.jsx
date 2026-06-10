@@ -6,7 +6,7 @@ import './intro.css';
 
 const bullets = [
   "End-to-end Zoho implementation (CRM, Books, Creator, People, Desk)",
-  "Workflow automation and custom app development using Deluge",
+  "Workflow automation & custom app development using Deluge",
   "API integrations and system architecture design",
   "Data analysis, reporting, and visualization for decision-making",
   "AI/ML-driven solutions for smarter business processes",
@@ -41,15 +41,14 @@ const Intro = () => (
           </article>
         </div>
 
-        {/* Short intro — 2 sentences max */}
+        {/* Short intro — 2 punchy sentences */}
         <p className="about__intro">
-          Hello <strong>Purity Kihiu</strong> ,a Software Engineer specializing in Zoho ecosystem development and AI-driven solutions. 
-          I help businesses streamline operations, automate workflows, and unlock data-driven decision-making through scalable digital systems. 
-          I have hands-on experience building end-to-end solutions using Zoho Components, Deluge scripting ,transforming manual processes into efficient and automated workflows across finance, HR, and sales. 
-          Beyond Zoho, I develop models by integrating APIs, data analytics, and emerging AI/ML technologies to solve real-world problems from business automation to impact-driven platforms like e-learning systems.
+          I'm <strong>Purity Kihiu</strong>, a Software Engineer specialising in Zoho ecosystem
+          development and AI-driven solutions helping businesses automate workflows, streamline
+          operations, and unlock data-driven decisions through scalable digital systems.
         </p>
 
-        {/* Bullet skills — 2 columns */}
+        {/* Skills — 2 columns */}
         <ul className="about__bullets">
           {bullets.map((b, i) => (
             <li key={i}>{b}</li>
@@ -57,8 +56,8 @@ const Intro = () => (
         </ul>
 
         <a href="#contact" className="btn btn-primary">Let's Talk</a>
-      </div>
 
+      </div>
     </div>
   </section>
 );

@@ -1,15 +1,12 @@
-/* ═══════════════════════════════════════════════
-   ABOUT / INTRO — fits in one viewport, no scroll
-   ═══════════════════════════════════════════════ */
 
 .about__container {
   display: grid;
-  grid-template-columns: 32% 1fr;
-  gap: 8%;
+  grid-template-columns: 30% 1fr;
+  gap: 10%;
   align-items: center;
 }
 
-/* ── Photo column ── */
+/* ── Photo ── */
 .about__me {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -27,9 +24,7 @@
   width: 100%;
 }
 
-.about__me-image:hover {
-  transform: rotate(0);
-}
+.about__me-image:hover { transform: rotate(0); }
 
 .about__me-image img {
   width: 100%;
@@ -42,7 +37,7 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 /* Stat cards */
@@ -69,17 +64,20 @@
 
 .about__icon {
   color: var(--color-primary);
-  font-size: 1.4rem;
-  margin-bottom: 0.6rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-inline: auto;
 }
 
 .about__card h5 {
   font-size: 0.95rem;
-  margin-bottom: 0.25rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
 }
 
 .about__card small {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: var(--color-light);
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -88,10 +86,10 @@
 /* Short intro paragraph */
 .about__intro {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.88rem;
+  font-size: 0.87rem;
   font-weight: 400;
   color: var(--color-light);
-  line-height: 1.65;
+  line-height: 1.7;
   margin: 0;
 }
 
@@ -100,14 +98,14 @@
   font-weight: 700;
 }
 
-/* Bullet list — 2 columns */
+/* Bullet skills — 2 columns */
 .about__bullets {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.5rem 1.5rem;
+  gap: 0.45rem 1.5rem;
 }
 
 .about__bullets li {
@@ -124,8 +122,8 @@
   position: absolute;
   left: 0;
   color: var(--color-primary);
-  font-size: 0.75rem;
-  top: 0.05rem;
+  font-size: 0.72rem;
+  top: 0.1rem;
 }
 
 /* ── Responsive ── */
@@ -162,9 +160,5 @@
   .about__bullets {
     grid-template-columns: 1fr;
     text-align: left;
-  }
-
-  .about__bullets li {
-    font-size: 0.78rem;
   }
 }
