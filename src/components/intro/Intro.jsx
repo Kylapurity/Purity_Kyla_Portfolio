@@ -43,7 +43,7 @@ const Intro = () => (
 
         {/* Short intro — 2 punchy sentences */}
         <p className="about__intro">
-          I'm <strong>Purity Kihiu</strong>, a Software Engineer specialising in Zoho ecosystem
+          Hello <strong>Purity Kihiu</strong>, a Software Engineer specialising in Zoho ecosystem
           development and AI-driven solutions helping businesses automate workflows, streamline
           operations, and unlock data-driven decisions through scalable digital systems.
         </p>
