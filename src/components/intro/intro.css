@@ -86,7 +86,7 @@
 /* Short intro paragraph */
 .about__intro {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.87rem;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--color-light);
   line-height: 1.7;
@@ -110,7 +110,7 @@
 
 .about__bullets li {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--color-light);
   line-height: 1.45;
   padding-left: 1.1rem;
