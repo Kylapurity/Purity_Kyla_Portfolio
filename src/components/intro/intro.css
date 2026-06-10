@@ -1,19 +1,20 @@
+/* ═══════════════════════════════════════════════
+   ABOUT / INTRO — fits in one viewport, no scroll
+   ═══════════════════════════════════════════════ */
+
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 32% 1fr;
+  gap: 8%;
+  align-items: center;
 }
 
+/* ── Photo column ── */
 .about__me {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
+  background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
   display: grid;
   place-items: center;
 }
@@ -23,23 +24,39 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
+  width: 100%;
 }
 
 .about__me-image:hover {
   transform: rotate(0);
 }
 
+.about__me-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Right column ── */
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Stat cards */
 .about__cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .about__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.4rem 1rem;
   text-align: center;
   transition: var(--transition);
 }
@@ -52,61 +69,102 @@
 
 .about__icon {
   color: var(--color-primary);
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
 }
 
 .about__card h5 {
-  font-size: 1rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
 }
 
 .about__card small {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--color-light);
   font-family: "Open Sans", sans-serif;
-font-weight: 700;
+  font-weight: 700;
 }
 
-.about__content p {
+/* Short intro paragraph */
+.about__intro {
   font-family: "Open Sans", sans-serif;
-  margin: 2rem 0 2.6rem;
+  font-size: 0.88rem;
   font-weight: 400;
   color: var(--color-light);
-  /* line-height: 1rem; */
+  line-height: 1.65;
+  margin: 0;
 }
 
+.about__intro strong {
+  color: var(--color-white);
+  font-weight: 700;
+}
+
+/* Bullet list — 2 columns */
+.about__bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1.5rem;
+}
+
+.about__bullets li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  color: var(--color-light);
+  line-height: 1.45;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.about__bullets li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  top: 0.05rem;
+}
+
+/* ── Responsive ── */
 @media screen and (max-width: 1024px) {
   .about__container {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 2rem;
   }
 
   .about__me {
     width: 50%;
-    margin: 2rem auto 4rem;
+    margin: 0 auto;
   }
 
-  .about__content p {
-    margin: 1rem 0 1.5rem;
+  .about__bullets {
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 65%;
-    margin: 0rem auto 3rem;
+    width: 70%;
   }
 
   .about__cards {
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 0.8rem;
   }
 
   .about__content {
     text-align: center;
   }
 
-  .about__content p {
-    margin: 1.5rem 0;
+  .about__bullets {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .about__bullets li {
+    font-size: 0.78rem;
   }
 }
